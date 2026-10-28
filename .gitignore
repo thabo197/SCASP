@@ -1,0 +1,53 @@
+# Build output
+target/
+build/
+out/
+*.class
+*.jar
+*.war
+*.ear
+!**/gradle/wrapper/gradle-wrapper.jar
+!**/.mvn/wrapper/maven-wrapper.jar
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
+nbproject/
+.factorypath
+
+# Android
+.gradle/
+local.properties
+*.apk
+*.aab
+captures/
+.cxx/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+hs_err_pid*
+
+# Secrets and local configuration: never commit these
+.env
+*.env
+*.jks
+*.keystore
+*.pem
+*.key
+application-local.*
+secrets.*
+
+# Local databases and dumps (the SQL scripts in database/ are the source of truth)
+*.db
+*.mv.db
+*.trace.db
+
+# OS files
+.DS_Store
+Thumbs.db
