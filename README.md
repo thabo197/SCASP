@@ -31,7 +31,9 @@ Roles rotate after Stages 3 and 7. See `CONTRIBUTING.md`.
 
 ## Prerequisites, build, database, deployment and run instructions
 
-Added when the Maven baseline is committed (Stage 0) and extended at each stage.
+- Git
+- JDK 21 or newer (`java -version`)
+- Maven 3.9 or newer (`mvn -version`), or use the Maven wrapper (`mvnw`, `mvnw.cmd`) once it is committed
 
 ## Repository layout
 
